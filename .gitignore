@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# 游戏素材 / 测试靶子（体积大，不入库）
+ever17/
+ever17_packed/
+*.7z
+*.nsa
+*.mp4
+*.zip
+
+# 运行产物
+docs/shots/
+.onsmcp_shots/
+tools/refgame*/

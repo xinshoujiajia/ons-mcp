@@ -1,0 +1,7 @@
+# 运行时依赖
+mcp>=2.0
+pillow>=10.0
+
+# 开发/自测（可选）：pip install -e ".[dev]"
+#   pytest>=8.0
+#   psutil>=5.9

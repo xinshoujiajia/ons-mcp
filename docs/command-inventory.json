@@ -1,0 +1,1312 @@
+{
+ "game_dir": "D:\\game\\美少女万华镜2",
+ "script": "0.txt",
+ "encoding": "gbk",
+ "total_lines": 28646,
+ "stats": {
+  "comment": 360,
+  "label": 264,
+  "text": 13383,
+  "blank": 148,
+  "control": 1
+ },
+ "text_lines": 13383,
+ "labels": 264,
+ "defsub_count": 41,
+ "engine": {
+  "jh": 347,
+  "yuri": 348
+ },
+ "engine_union": 347,
+ "distinct_cmds_used": 128,
+ "stmt_total": 14490,
+ "by_phase": {
+  "P3": 14,
+  "P1": 67,
+  "—": 21,
+  "P2": 14,
+  "P4": 12
+ },
+ "rows": [
+  {
+   "cmd": "chara01",
+   "count": 3929,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P3",
+   "sample": "chara01 \"file4\",\"A181\""
+  },
+  {
+   "cmd": "bg01",
+   "count": 1810,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P1",
+   "sample": "bg01 \"file\",\"ev/w03_02_1_001\":mov %read_cgdata01,1"
+  },
+  {
+   "cmd": "bg",
+   "count": 1254,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "bgCommand",
+   "category": "图像",
+   "phase": "P1",
+   "sample": "bg \"cut/cut030.png\",10,800"
+  },
+  {
+   "cmd": "chara02",
+   "count": 817,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P3",
+   "sample": "chara02 \"file4\",\"04A174\""
+  },
+  {
+   "cmd": "if",
+   "count": 799,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "ifCommand",
+   "category": "流程控制",
+   "phase": "P1",
+   "sample": "if %sceneon=1 goto *scene_mode"
+  },
+  {
+   "cmd": "se01",
+   "count": 694,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "—",
+   "sample": "se01 \"file\",\"se102\""
+  },
+  {
+   "cmd": "lsp",
+   "count": 666,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "lspCommand",
+   "category": "图像",
+   "phase": "P3",
+   "sample": "lsp 998,\":a/20,50,0;bg3/xt.png\",0,0:print 1"
+  },
+  {
+   "cmd": "print",
+   "count": 578,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "printCommand",
+   "category": "图像",
+   "phase": "P1",
+   "sample": "print 1"
+  },
+  {
+   "cmd": "numalias",
+   "count": 425,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "numaliasCommand",
+   "category": "变量运算",
+   "phase": "P1",
+   "sample": "numalias save_data_y,66"
+  },
+  {
+   "cmd": "chara03",
+   "count": 407,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P3",
+   "sample": "chara03 \"file4\",\"28A15A903\""
+  },
+  {
+   "cmd": "screen_clear_menu",
+   "count": 234,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P1",
+   "sample": "screen_clear_menu"
+  },
+  {
+   "cmd": "vsp",
+   "count": 232,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "vspCommand",
+   "category": "图像",
+   "phase": "P1",
+   "sample": "vsp 600,0"
+  },
+  {
+   "cmd": "bgmstop",
+   "count": 226,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "mp3stopCommand",
+   "category": "音频",
+   "phase": "—",
+   "sample": "bgmstop"
+  },
+  {
+   "cmd": "music",
+   "count": 218,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "—",
+   "sample": "music \"file\",\"wbgm01\""
+  },
+  {
+   "cmd": "sentence",
+   "count": 199,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P1",
+   "sample": "sentence \"cut\""
+  },
+  {
+   "cmd": "gosub",
+   "count": 168,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "gosubCommand",
+   "category": "流程控制",
+   "phase": "P2",
+   "sample": "gosub *wanhuatong"
+  },
+  {
+   "cmd": "csp",
+   "count": 160,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "cspCommand",
+   "category": "图像",
+   "phase": "P1",
+   "sample": "csp 998"
+  },
+  {
+   "cmd": "qlie_flash",
+   "count": 143,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "—",
+   "sample": "qlie_flash"
+  },
+  {
+   "cmd": "return",
+   "count": 142,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "returnCommand",
+   "category": "流程控制",
+   "phase": "P1",
+   "sample": "return"
+  },
+  {
+   "cmd": "mov",
+   "count": 127,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "movCommand",
+   "category": "变量运算",
+   "phase": "P1",
+   "sample": "mov $sentence,\"ysr000\""
+  },
+  {
+   "cmd": "lsph",
+   "count": 97,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "lspCommand",
+   "category": "图像",
+   "phase": "P3",
+   "sample": "lsph 597,\":a/60,80,0;movie/movie029.png\",0,0:print 1"
+  },
+  {
+   "cmd": "goto",
+   "count": 90,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "gotoCommand",
+   "category": "流程控制",
+   "phase": "P1",
+   "sample": "goto *define"
+  },
+  {
+   "cmd": "wait",
+   "count": 74,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "waitCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "wait 1000"
+  },
+  {
+   "cmd": "for",
+   "count": 68,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "forCommand",
+   "category": "流程控制",
+   "phase": "P1",
+   "sample": "for %sub1= 0 to 5 step 1"
+  },
+  {
+   "cmd": "next",
+   "count": 68,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "nextCommand",
+   "category": "流程控制",
+   "phase": "P1",
+   "sample": "next"
+  },
+  {
+   "cmd": "btn",
+   "count": 59,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "btnCommand",
+   "category": "系统/UI",
+   "phase": "P2",
+   "sample": "btn 41,0,75,1280,720-75,0,0"
+  },
+  {
+   "cmd": "quakey",
+   "count": 58,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "quakeCommand",
+   "category": "动画特效",
+   "phase": "—",
+   "sample": "quakey 3,500"
+  },
+  {
+   "cmd": "allspresume",
+   "count": 57,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "allspresumeCommand",
+   "category": "图像",
+   "phase": "P3",
+   "sample": "allspresume;所有使用allsphide隐藏的图片再显示"
+  },
+  {
+   "cmd": "se02",
+   "count": 51,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "—",
+   "sample": "se02 \"loop\",\"infinity\""
+  },
+  {
+   "cmd": "movie01",
+   "count": 45,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "—",
+   "sample": "movie01 \"13\",\"movie/movie012\""
+  },
+  {
+   "cmd": "exbtn",
+   "count": 44,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "exbtnCommand",
+   "category": "系统/UI",
+   "phase": "P2",
+   "sample": "exbtn 100,100,\"c100p200p300c301c302c303c304S1,(cgsys/title/Sys_OnMouse.wav)\""
+  },
+  {
+   "cmd": "defsub",
+   "count": 41,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "defsubCommand",
+   "category": "变量运算",
+   "phase": "P1",
+   "sample": "defsub bg01;背景1(底层)"
+  },
+  {
+   "cmd": "quakex",
+   "count": 29,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "quakeCommand",
+   "category": "动画特效",
+   "phase": "—",
+   "sample": "quakex 3,200"
+  },
+  {
+   "cmd": "itoa",
+   "count": 28,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "itoaCommand",
+   "category": "变量运算",
+   "phase": "P1",
+   "sample": "itoa $sub2,%sub1"
+  },
+  {
+   "cmd": "bg02",
+   "count": 27,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P1",
+   "sample": "bg02 \"rep0\",\"eyecatch/eyecatch002\""
+  },
+  {
+   "cmd": "getparam",
+   "count": 24,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "getparamCommand",
+   "category": "变量运算",
+   "phase": "P1",
+   "sample": "getparam $face_ctrl,$face"
+  },
+  {
+   "cmd": "amsp",
+   "count": 21,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "amspCommand",
+   "category": "图像",
+   "phase": "P1",
+   "sample": "amsp 997,0,0"
+  },
+  {
+   "cmd": "btnwait",
+   "count": 21,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "btnwaitCommand",
+   "category": "系统/UI",
+   "phase": "P2",
+   "sample": "btnwait %bwait"
+  },
+  {
+   "cmd": "effect",
+   "count": 20,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "effectCommand",
+   "category": "动画特效",
+   "phase": "—",
+   "sample": "effect 10,10,600;10透明渐变600"
+  },
+  {
+   "cmd": "chara05",
+   "count": 17,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P3",
+   "sample": "chara05 \"file4\",\"43A15A1001\""
+  },
+  {
+   "cmd": "ef01",
+   "count": 16,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P3",
+   "sample": "ef01 \"file\",\"bg3/bg062\""
+  },
+  {
+   "cmd": "spbtn",
+   "count": 16,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "spbtnCommand",
+   "category": "系统/UI",
+   "phase": "P2",
+   "sample": "spbtn 297,297"
+  },
+  {
+   "cmd": "screen_clear_menu1",
+   "count": 15,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P1",
+   "sample": "screen_clear_menu1"
+  },
+  {
+   "cmd": "add",
+   "count": 15,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "addCommand",
+   "category": "变量运算",
+   "phase": "P1",
+   "sample": "add %savepicy, save_height"
+  },
+  {
+   "cmd": "btndef",
+   "count": 14,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "btndefCommand",
+   "category": "系统/UI",
+   "phase": "P2",
+   "sample": "btndef clear"
+  },
+  {
+   "cmd": "chara04",
+   "count": 13,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P3",
+   "sample": "chara04 \"file4\",\"25A3302\""
+  },
+  {
+   "cmd": "msp",
+   "count": 13,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "mspCommand",
+   "category": "图像",
+   "phase": "P3",
+   "sample": "msp 998,0,150"
+  },
+  {
+   "cmd": "dwave",
+   "count": 10,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "dwaveCommand",
+   "category": "音频",
+   "phase": "—",
+   "sample": "dwave 0,\"voice/\"+$Voice+\".ogg\":ead_cgdata55,1;有语音播放语音后返回"
+  },
+  {
+   "cmd": "getspsize",
+   "count": 10,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "getspsizeCommand",
+   "category": "图像",
+   "phase": "P3",
+   "sample": "getspsize 601,%chara01_sp_X,%chara01_sp_Y;获取立绘大小"
+  },
+  {
+   "cmd": "split",
+   "count": 10,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "splitCommand",
+   "category": "变量运算",
+   "phase": "P4",
+   "sample": "split $%sub1,\",\",$savemonth,$saveday,$savehour,$saveminute,$savetext"
+  },
+  {
+   "cmd": "bgmvol",
+   "count": 9,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "mp3volCommand",
+   "category": "音频",
+   "phase": "—",
+   "sample": "bgmvol 0"
+  },
+  {
+   "cmd": "exbtn_d",
+   "count": 9,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "exbtnCommand",
+   "category": "系统/UI",
+   "phase": "P2",
+   "sample": "exbtn_d \"p100-105c200-205\";c300-305\""
+  },
+  {
+   "cmd": "getpage",
+   "count": 8,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "getpageCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "getpage"
+  },
+  {
+   "cmd": "btndown",
+   "count": 7,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "btndownCommand",
+   "category": "系统/UI",
+   "phase": "P2",
+   "sample": "btndown 1"
+  },
+  {
+   "cmd": "textoff",
+   "count": 6,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "textoffCommand",
+   "category": "文本",
+   "phase": "P1",
+   "sample": "textoff:vsp 299,0:print 1"
+  },
+  {
+   "cmd": "csel",
+   "count": 6,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "selectCommand",
+   "category": "系统/UI",
+   "phase": "P2",
+   "sample": "csel \"射在里面\",*L_w_08_04_sel1_0,\"射在外面\",*L_w_08_04_sel1_1"
+  },
+  {
+   "cmd": "dwavestop",
+   "count": 6,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "dwavestopCommand",
+   "category": "音频",
+   "phase": "—",
+   "sample": "dwavestop 0"
+  },
+  {
+   "cmd": "windoweffect",
+   "count": 6,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "effectCommand",
+   "category": "动画特效",
+   "phase": "—",
+   "sample": "windoweffect 10,200;文本框显示／消失的时候的效果"
+  },
+  {
+   "cmd": "spstr",
+   "count": 6,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "spstrCommand",
+   "category": "系统/UI",
+   "phase": "P2",
+   "sample": "spstr \"c100-109c200-209c300-309\""
+  },
+  {
+   "cmd": "getmousepos",
+   "count": 6,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "getmouseposCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "getmousepos %cursorx,%cursory"
+  },
+  {
+   "cmd": "isdown",
+   "count": 6,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "isdownCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "isdown %sub1"
+  },
+  {
+   "cmd": "itoa2",
+   "count": 6,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "itoaCommand",
+   "category": "变量运算",
+   "phase": "P1",
+   "sample": "itoa2 $sub1,%savedatanow"
+  },
+  {
+   "cmd": "bgm",
+   "count": 5,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "mp3Command",
+   "category": "音频",
+   "phase": "—",
+   "sample": "bgm \"sound/se387.ogg\""
+  },
+  {
+   "cmd": "getcselstr",
+   "count": 5,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "getcselstrCommand",
+   "category": "系统/UI",
+   "phase": "P2",
+   "sample": "getcselstr $select00,0"
+  },
+  {
+   "cmd": "len",
+   "count": 4,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "lenCommand",
+   "category": "变量运算",
+   "phase": "P1",
+   "sample": "len %name2,$Name;获取名字长度"
+  },
+  {
+   "cmd": "bar",
+   "count": 4,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "barCommand",
+   "category": "系统/UI",
+   "phase": "P4",
+   "sample": "bar 0,1,730+480,%backlogbary,16,%backlogbarone2,1,#DDDDDD"
+  },
+  {
+   "cmd": "cell",
+   "count": 4,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "cellCommand",
+   "category": "图像",
+   "phase": "P3",
+   "sample": "cell %sub1+510,0"
+  },
+  {
+   "cmd": "erasetextwindow",
+   "count": 3,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "erasetextwindowCommand",
+   "category": "文本",
+   "phase": "P1",
+   "sample": "erasetextwindow 1"
+  },
+  {
+   "cmd": "texton",
+   "count": 3,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "textonCommand",
+   "category": "文本",
+   "phase": "P1",
+   "sample": "texton"
+  },
+  {
+   "cmd": "texec",
+   "count": 3,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "texecCommand",
+   "category": "文本",
+   "phase": "P1",
+   "sample": "texec"
+  },
+  {
+   "cmd": "barclear",
+   "count": 3,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "barclearCommand",
+   "category": "系统/UI",
+   "phase": "P4",
+   "sample": "barclear"
+  },
+  {
+   "cmd": "savefileexist",
+   "count": 3,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "savefileexistCommand",
+   "category": "系统/UI",
+   "phase": "P4",
+   "sample": "savefileexist %sub1,100"
+  },
+  {
+   "cmd": "screen_clear_leave",
+   "count": 3,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P1",
+   "sample": "screen_clear_leave"
+  },
+  {
+   "cmd": "checkpage",
+   "count": 3,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "checkpageCommand",
+   "category": "系统/UI",
+   "phase": "P4",
+   "sample": "checkpage %sub1,1"
+  },
+  {
+   "cmd": "cellcheckspbtn",
+   "count": 3,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "spbtnCommand",
+   "category": "系统/UI",
+   "phase": "P4",
+   "sample": "cellcheckspbtn %sub6,%sub6"
+  },
+  {
+   "cmd": "text_nomal",
+   "count": 2,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P1",
+   "sample": "text_nomal"
+  },
+  {
+   "cmd": "qlie_flash1",
+   "count": 2,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "—",
+   "sample": "qlie_flash1"
+  },
+  {
+   "cmd": "quake",
+   "count": 2,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "quakeCommand",
+   "category": "动画特效",
+   "phase": "—",
+   "sample": "quake 3,200"
+  },
+  {
+   "cmd": "char1",
+   "count": 2,
+   "in_engine": false,
+   "is_defsub": false,
+   "handler": "",
+   "category": "引擎未提供(降级跳过)",
+   "phase": "—",
+   "sample": "char1 48,650,\"A30_A20_1_.png\""
+  },
+  {
+   "cmd": "mp3",
+   "count": 2,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "mp3Command",
+   "category": "音频",
+   "phase": "—",
+   "sample": "mp3 \"bgm/ed.ogg\""
+  },
+  {
+   "cmd": "setlayer",
+   "count": 2,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "setlayerCommand",
+   "category": "系统/UI",
+   "phase": "P4",
+   "sample": "setlayer 0,100,\"hana.dll\""
+  },
+  {
+   "cmd": "dim",
+   "count": 2,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "dimCommand",
+   "category": "变量运算",
+   "phase": "P2",
+   "sample": "dim ?savecache[save_num]"
+  },
+  {
+   "cmd": "setwindow3",
+   "count": 2,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "setwindow3Command",
+   "category": "图像",
+   "phase": "P1",
+   "sample": "setwindow3 300,600,32,3,26,26,0,10,1,1,1,\"cgsys/sys/windowframe_window.png\",0,560 : textspeed %texts"
+  },
+  {
+   "cmd": "strsp",
+   "count": 2,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "strspCommand",
+   "category": "图像",
+   "phase": "P3",
+   "sample": "strsp 301+%sub1,\"\",80,0,32,4,20,20,0,10,1,1,#FFFFFF"
+  },
+  {
+   "cmd": "mid",
+   "count": 2,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "midCommand",
+   "category": "变量运算",
+   "phase": "P4",
+   "sample": "mid $savetextget,$savetextget,0,88"
+  },
+  {
+   "cmd": "allsphide",
+   "count": 2,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "allsphideCommand",
+   "category": "图像",
+   "phase": "P3",
+   "sample": "allsphide"
+  },
+  {
+   "cmd": "overlap_long",
+   "count": 1,
+   "in_engine": false,
+   "is_defsub": false,
+   "handler": "",
+   "category": "引擎未提供(降级跳过)",
+   "phase": "—",
+   "sample": "overlap_long"
+  },
+  {
+   "cmd": "screen_clear",
+   "count": 1,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "P1",
+   "sample": "screen_clear"
+  },
+  {
+   "cmd": "gettag",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "gettagCommand",
+   "category": "文本",
+   "phase": "P1",
+   "sample": "gettag $Voice,$Name,$face;获取[]内的文本并根据\"/\"分成3份"
+  },
+  {
+   "cmd": "mul",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "mulCommand",
+   "category": "变量运算",
+   "phase": "P1",
+   "sample": "mul %name2,15;长度乘以15"
+  },
+  {
+   "cmd": "div",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "divCommand",
+   "category": "变量运算",
+   "phase": "P1",
+   "sample": "div %name2,2;再除以2就获得了名字文本左上x坐标偏移(根据文字大小.这里是30号)"
+  },
+  {
+   "cmd": "caption",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "captionCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "caption \"美少女万华镜2 ONS移植版 青桔移植组 v1.0 \""
+  },
+  {
+   "cmd": "nsa",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "nsaCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "nsa;读取nsa压缩包"
+  },
+  {
+   "cmd": "rubyon",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "rubyonCommand",
+   "category": "文本",
+   "phase": "P4",
+   "sample": "rubyon;注音模式"
+  },
+  {
+   "cmd": "pretextgosub",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "pretextgosubCommand",
+   "category": "文本",
+   "phase": "P1",
+   "sample": "pretextgosub *pretext_do;文本前的名字,语音和头像处理"
+  },
+  {
+   "cmd": "textgosub",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "textgosubCommand",
+   "category": "文本",
+   "phase": "P1",
+   "sample": "textgosub *text_btn;文本处理"
+  },
+  {
+   "cmd": "loadgosub",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "loadgosubCommand",
+   "category": "流程控制",
+   "phase": "—",
+   "sample": "loadgosub *load_config;读档处理"
+  },
+  {
+   "cmd": "globalon",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "globalonCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "globalon;全局变量开启"
+  },
+  {
+   "cmd": "usewheel",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "usewheelCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "usewheel;使用鼠标滚轮上(-2)和下(-3)"
+  },
+  {
+   "cmd": "useescspc",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "useescspcCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "useescspc;使用ESC键(-10)和空格(-11)"
+  },
+  {
+   "cmd": "maxkaisoupage",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "maxkaisoupageCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "maxkaisoupage 100;最大历史文本行数"
+  },
+  {
+   "cmd": "automode",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "mode_extCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "automode;启用自动模式,语音读完才会下一句文本(仅支持dwave 0和dwave 1)"
+  },
+  {
+   "cmd": "humanz",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "humanzCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "humanz 590;图片与文本框顺序,比590大的,会在文本框后面"
+  },
+  {
+   "cmd": "windowback",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "windowbackCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "windowback;与上面的一同使用"
+  },
+  {
+   "cmd": "transmode",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "transmodeCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "transmode alpha;图片透明形式,一般png都是alpha"
+  },
+  {
+   "cmd": "shadedistance",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "shadedistanceCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "shadedistance 1,2;阴影"
+  },
+  {
+   "cmd": "linepage",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "linepageCommand",
+   "category": "文本",
+   "phase": "P1",
+   "sample": "linepage;将行末没有\\的显示文本的换行视为换页"
+  },
+  {
+   "cmd": "game",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "gameCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "game"
+  },
+  {
+   "cmd": "lookbackflush",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "lookbackflushCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "lookbackflush"
+  },
+  {
+   "cmd": "delay",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "delayCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "delay 1500"
+  },
+  {
+   "cmd": "rnd",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "rndCommand",
+   "category": "变量运算",
+   "phase": "P2",
+   "sample": "rnd %sub10,3"
+  },
+  {
+   "cmd": "saveoff",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "saveoffCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "saveoff"
+  },
+  {
+   "cmd": "getcselnum",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "getcselnumCommand",
+   "category": "系统/UI",
+   "phase": "P2",
+   "sample": "getcselnum %selectnum"
+  },
+  {
+   "cmd": "gettext",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "gettextCommand",
+   "category": "文本",
+   "phase": "P1",
+   "sample": "gettext $savetextget"
+  },
+  {
+   "cmd": "getscreenshot",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "getscreenshotCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "getscreenshot 178,100"
+  },
+  {
+   "cmd": "automode_time",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "automode_timeCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "automode_time %sub1*%textspeed+%autotime"
+  },
+  {
+   "cmd": "ispage",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "ispageCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "ispage %textkai"
+  },
+  {
+   "cmd": "getcursorpos",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "getcursorposCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "getcursorpos %textlastx,%textlasty"
+  },
+  {
+   "cmd": "getenter",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "getenterCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "getenter"
+  },
+  {
+   "cmd": "getcursor",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "getcursorCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "getcursor"
+  },
+  {
+   "cmd": "textbtnwait",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "btnwaitCommand",
+   "category": "文本",
+   "phase": "P1",
+   "sample": "textbtnwait %bwait"
+  },
+  {
+   "cmd": "saveon",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "saveonCommand",
+   "category": "系统/UI",
+   "phase": "P1",
+   "sample": "saveon"
+  },
+  {
+   "cmd": "inc",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "incCommand",
+   "category": "变量运算",
+   "phase": "P1",
+   "sample": "inc %backlogtotal"
+  },
+  {
+   "cmd": "sub",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "subCommand",
+   "category": "变量运算",
+   "phase": "P1",
+   "sample": "sub %sub4, backlog_height"
+  },
+  {
+   "cmd": "savescreenshot2",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "savescreenshotCommand",
+   "category": "系统/UI",
+   "phase": "P4",
+   "sample": "savescreenshot2 $savescreen"
+  },
+  {
+   "cmd": "savegame",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "savegameCommand",
+   "category": "系统/UI",
+   "phase": "P4",
+   "sample": "savegame %savedatanow"
+  },
+  {
+   "cmd": "savetime",
+   "count": 1,
+   "in_engine": true,
+   "is_defsub": false,
+   "handler": "savetimeCommand",
+   "category": "系统/UI",
+   "phase": "P4",
+   "sample": "savetime %savedatanow,%savemonth,%saveday,%savehour,%saveminute"
+  },
+  {
+   "cmd": "es_snd_stop",
+   "count": 1,
+   "in_engine": false,
+   "is_defsub": true,
+   "handler": "",
+   "category": "游戏宏(defsub)",
+   "phase": "—",
+   "sample": "es_SND_STOP:stop"
+  }
+ ]
+}

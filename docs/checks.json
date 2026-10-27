@@ -1,0 +1,85 @@
+{
+ "time": "2026-10-27 00:15:11",
+ "game": "D:/game/美少女万华镜2",
+ "ok": true,
+ "seconds": 56.4,
+ "results": [
+  {
+   "name": "单元测试",
+   "code": 0,
+   "seconds": 15.2,
+   "tail": "tests/test_units.py::test_texthide_hides_text_but_keeps_content\n  D:\\project\\dsh-ons-mcp\\tests\\test_units.py:2229: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.\n    bright = [px for px in img.getdata() if min(px[:3]) > 200]\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n162 passed, 4 warnings in 14.31s",
+   "stderr": ""
+  },
+  {
+   "name": "协议测试",
+   "code": 0,
+   "seconds": 4.2,
+   "tail": "[PASS] save 报体积 42768\n[PASS] load 未报错 [{'text': '{\\n \"waiting\": \"text\",\\n \"finished\": false,\\n \"label\": \"w01_01\",\\n \"line\": 380,\\n \"pc_label\": \"w01_01\",\\n \"pc_line\": 379,\\n \"in_hook\": false,\\n \"stopped\": null,\\n \"page\": \"孩提时代许下的约定。\",\\n \"s\n[PASS] load 成功 \n[PASS] load 带槽位 9\n\n全部通过（38 项断言）",
+   "stderr": ""
+  },
+  {
+   "name": "端到端",
+   "code": 0,
+   "seconds": 1.1,
+   "tail": "[PASS] 每个选项都有可点击矩形 \n[PASS] choose(0) 命中第 0 项 射在里面\n[PASS] 跳到了选项对应的标签 l_w_08_04_sel1_0\n[PASS] 选完选项列表已清空 \n\n全部通过（11 项检查）",
+   "stderr": ""
+  },
+  {
+   "name": "选项分支",
+   "code": 0,
+   "seconds": 3.1,
+   "tail": "   [PASS] 选「要回去了」→ w15_04b\nL22277  选项 2 个：有 / 没有\n   [PASS] 选「有」→ w_16_01b_sel1_0\n   [PASS] 选「没有」→ w_16_01b_sel1_1\n\n通过 12 项，失败 0 项",
+   "stderr": ""
+  },
+  {
+   "name": "游戏内菜单",
+   "code": 0,
+   "seconds": 3.3,
+   "tail": "[PASS] 保存后回到存档界面 save_btn\n[PASS] 存档文件已写盘 ['save2.dat']\n[PASS] 槽号符合点击位置 save2.dat 点击时槽号=2\n[PASS] 存档能被解析出剧情位置 bg=cut/cut038.png cur_line=26609 变量=36\n\n全部通过（11 项检查）",
+   "stderr": ""
+  },
+  {
+   "name": "可移植性",
+   "code": 0,
+   "seconds": 8.5,
+   "tail": "[PASS] E8 关闭后访问报可读错误 没有名为 'jia' 的会话\n[PASS] E17 真实素材：nscript.dat 载入 gbk 800x600\n[PASS] E17 停在标题按钮等待 l84_txt_loop L111582\n[PASS] E3 打包版与解包版画面像素一致 文本一致=True\n\n通过 30/30 项",
+   "stderr": "00:14:47 ERROR [onsmcp.server] 工具 text 失败：ToolError: 没有名为 'jia' 的会话"
+  },
+  {
+   "name": "排版校对",
+   "code": 0,
+   "seconds": 7.4,
+   "tail": "右端 x1           1130.0    1130.0     +0.0\n\n像素差异：平均 0.89/255，明显差异 0.48%\n  对齐缩放后：平均 0.69/255，明显差异 0.08%\n\n[OK] 几何项与像素差异都在阈值内 —— 排版与引擎一致",
+   "stderr": ""
+  },
+  {
+   "name": "禁则校对",
+   "code": 0,
+   "seconds": 5.4,
+   "tail": "右端 x1           1130.0    1130.0     +0.0\n\n像素差异：平均 1.43/255，明显差异 1.08%\n  对齐缩放后：平均 1.03/255，明显差异 0.28%\n\n[OK] 几何项与像素差异都在阈值内 —— 排版与引擎一致",
+   "stderr": ""
+  },
+  {
+   "name": "透明校对",
+   "code": 0,
+   "seconds": 5.1,
+   "tail": "右端 x1           1279.0    1279.0     +0.0\n\n像素差异：平均 0.79/255，明显差异 0.45%\n  对齐缩放后：平均 0.57/255，明显差异 0.08%\n\n[OK] 几何项与像素差异都在阈值内 —— 排版与引擎一致",
+   "stderr": ""
+  },
+  {
+   "name": "长跑",
+   "code": 0,
+   "seconds": 1.0,
+   "tail": "走过 3 个标签：['title_btn', 'xswl', 'w01_01']\n选项 0 次：无\n缓存 0.8 MB / 320.0 MB，解码 1 次，跳过超大 0\n撞到桩（引擎有、本项目没做）：effect×20, windoweffect×4, menu_click_def×3, setlayer×2, quakey×2, caption×1, nsa×1, rubyon×1, usewheel×1, useescspc×1, maxkaisoupage×1, automode×1, windowback×1, shadedistance×1, kidokumode×1, lookbackflush×1\n不认识的命令：image:fade/u96f22.png×1@L25033\n报告 → docs\\shots\\playthrough.json",
+   "stderr": ""
+  },
+  {
+   "name": "MCP 试玩",
+   "code": 0,
+   "seconds": 2.1,
+   "tail": "}\n读档 ok\n\n越界 choose → {  \"error\": \"选项越界：99，当前 0 个\",  \"choices\": [],  \"hint\": \"当前在等玩家推进，直接 click() 继续对话。\" }\n\n全部完成 ✓",
+   "stderr": ""
+  }
+ ]
+}
